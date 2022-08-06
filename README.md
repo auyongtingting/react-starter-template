@@ -1,6 +1,6 @@
 # react-starter-template
 
-1. Create a new react project
+## Create a new react project
 
 ```
 npm create vite@latest
@@ -13,7 +13,7 @@ git init (if you want to initialise git)
 npm run dev (if you want to run the project)
 ```
 
-2. Install CSS framework to enable effective, efficient and accurate styling (Tailwind CSS)
+##  Install CSS framework to enable effective, efficient and accurate styling (Tailwind CSS)
 
 ```
 npm install -D tailwindcss postcss autoprefixer daisyui
@@ -46,7 +46,7 @@ module.exports = {
 //everything else remains
 ```
 
-3. Introduce router and redesign file structure
+## Introduce router and redesign file structure
 
 ```
 npm install -D vite-plugin-pages
@@ -90,7 +90,7 @@ import '../App.css'
 import App from './pages/App'
 ```
 
-4. Install ESLint and allow linting
+##  Install ESLint and allow linting
 
 ```
 npm install eslint -D
