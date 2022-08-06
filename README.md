@@ -1,6 +1,7 @@
 # react-starter-template
 
 1. Create a new react project
+
 ```
 npm create vite@latest
 -> enter project_name
@@ -13,12 +14,14 @@ npm run dev (if you want to run the project)
 ```
 
 2. Install CSS framework to enable effective, efficient and accurate styling (Tailwind CSS)
+
 ```
 npm install -D tailwindcss postcss autoprefixer daisyui
 npx tailwindcss init -p
 ```
 
 - Edit tailwing.config.cjs
+
 ```
 /** @type {import('tailwindcss').Config} */ 
 module.exports = {
@@ -34,6 +37,7 @@ module.exports = {
 ```
 
 - Edit index.css
+
 ```
 @tailwind base;
 @tailwind components;
@@ -43,12 +47,14 @@ module.exports = {
 ```
 
 3. Introduce router and redesign file structure
+
 ```
 npm install -D vite-plugin-pages
 npm install react-router react-router-dom
 ```
 
 - Edit vite.config.ts
+
 ```
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
@@ -61,6 +67,7 @@ export default defineConfig({
 ```
 
 - Create folders and move App.tsx to src/pages
+
 ```
 mkdir src/pages
 mkdir src/components
@@ -71,17 +78,20 @@ mv src/App.tsx src/pages
 ```
 
 - Edit App.tsx import paths
+
 ```
 import reactLogo from '../assets/react.svg'
 import '../App.css'
 ```
 
 - Edit main.tsx 
+
 ```
 import App from './pages/App'
 ```
 
 4. Install ESLint and allow linting
+
 ```
 npm install eslint -D
 npm init @eslint/config
@@ -102,6 +112,7 @@ npm init @eslint/config
 ```
 
 - Add more rules to ESLint by modifying .eslintrc.cjs
+
 ```
 module.exports = {
 	'ignorePatterns': ['**/*.cjs'],
