@@ -148,4 +148,7 @@ module.exports = {
 }
 ```
 
-
+##  Start coding and run your project
+```
+npm run dev 
+``` 
