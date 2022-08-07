@@ -36,14 +36,12 @@ module.exports = {
 }
 ```
 
-- Edit index.css
+- Edit index.css by including the lines below
 
 ```
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-//everything else remains
 ```
 
 ## Introduce router and redesign file structure
